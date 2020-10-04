@@ -56,6 +56,10 @@ export const AnimaisLista = styled.ul`
   height: 370px;
   overflow-y: scroll;
   grid-column: 2;
+
+  li {
+    cursor: pointer;
+  }
   
   &::-webkit-scrollbar {
     width: 18px;
@@ -88,7 +92,7 @@ export const AnimaisDescricao = styled.div`
 
   & section.active {
     display: block;
-    animation: ${animaContent} .2s forwards;
+    animation: ${animaContent} .5s forwards;
   }
   
 `

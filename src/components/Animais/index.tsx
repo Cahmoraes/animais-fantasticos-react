@@ -32,7 +32,6 @@ const Animais: React.FC = () => {
 
   const handleImageClick = useCallback((index: number) => {
     return (event: Event) => {
-      console.log(event.target, index)
       setActiveItem(index)
     }
   }, [])

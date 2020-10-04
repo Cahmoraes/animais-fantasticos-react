@@ -25,6 +25,7 @@ export const Navigation = styled.nav`
     text-transform: uppercase;
     font-size: 1.4rem;
     letter-spacing: .1em;
+    cursor: pointer;
   }
 
   @media (max-width: 700px) {
