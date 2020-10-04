@@ -10,3 +10,14 @@ export const animaContent = keyframes`
     transform: initial;
   }
 `
+
+export const animaFaq = keyframes`
+  from {
+    opacity: 0;
+    min-height: auto;
+  }
+  to {
+    opacity: 1;
+    max-height: 200px;
+  }
+`

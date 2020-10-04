@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { animaFaq } from '../../styles/keyframes'
 
 export const Container = styled.section`
   grid-column: 2 / 4;
@@ -37,6 +37,14 @@ export const FaqLista = styled.dl`
     margin-top: 2rem;
     margin-bottom: .5rem;
     color: #E54;
+    cursor: pointer;
+    &::after {
+      content: '⬎';
+      margin-left: 5px;
+    }
+    &.active::after {
+      content: '⬏';
+    }
   }
 
   dt::before {
@@ -52,6 +60,11 @@ export const FaqLista = styled.dl`
     font-family: Helvetica, Arial;
     margin-bottom: .5rem;
     margin-left: 30px;
+    display: none;
+    &.active {
+      display: block;
+      animation: ${animaFaq} .5s forwards;
+    }
   }
 
   @media (max-width: 700px) {
