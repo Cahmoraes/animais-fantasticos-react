@@ -1,12 +1,12 @@
 <h3 align="center">
-  <a href="https://cahmoraes.github.io/brafe-react/">Projeto Animais Fantásticos - Desenvolvido com ReactJs + Typescript</a>
+  <a href="https://cahmoraes.github.io/animais-fantasticos-react/">Projeto Animais Fantásticos - Desenvolvido com ReactJs + Typescript</a>
 </h3>
 
 ---
 
 ## :rocket: Sobre
 
-[Animais Fantásticos Demonstração](https://cahmoraes.github.io/animais-fantasticos-react/)
+Animais Fantásticos
 
 <img src="https://github.com/Cahmoraes/animais-fantasticos-react/blob/main/src/assets/examples/af.gif" alt="Animais Fantásticos">
 
