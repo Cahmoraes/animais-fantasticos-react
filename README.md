@@ -6,7 +6,7 @@
 
 ## :rocket: Sobre
 
-Animais Fantásticos [Animais Fantásticos](https://cahmoraes.github.io/animais-fantasticos-react/)
+[Animais Fantásticos Demonstração](https://cahmoraes.github.io/animais-fantasticos-react/)
 
 <img src="https://github.com/Cahmoraes/animais-fantasticos-react/blob/main/src/assets/examples/af.gif" alt="Animais Fantásticos">
 
