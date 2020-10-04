@@ -6,7 +6,7 @@ import Home from '../pages/Home'
 const Routes: React.FC = () => (
   <>
     <Route path="/" exact component={Home} />
-    <Route path="/Animais-Fantasticos-React/" component={Home} />
+    <Route path="/animais-fantasticos-react/" component={Home} />
   </>
 )
 

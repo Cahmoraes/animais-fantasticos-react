@@ -2,7 +2,7 @@
   "name": "revisao-11",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cahmoraes.github.io/Animais-Fantasticos-React/",
+  "homepage": "https://cahmoraes.github.io/animais-fantasticos-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
