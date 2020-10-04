@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/animais-fantasticos-react/static/js/main.4b2d23ef.chunk.js",
-    "main.js.map": "/animais-fantasticos-react/static/js/main.4b2d23ef.chunk.js.map",
+    "main.js": "/animais-fantasticos-react/static/js/main.7108eef1.chunk.js",
+    "main.js.map": "/animais-fantasticos-react/static/js/main.7108eef1.chunk.js.map",
     "runtime-main.js": "/animais-fantasticos-react/static/js/runtime-main.880a3311.js",
     "runtime-main.js.map": "/animais-fantasticos-react/static/js/runtime-main.880a3311.js.map",
-    "static/js/2.ced51117.chunk.js": "/animais-fantasticos-react/static/js/2.ced51117.chunk.js",
-    "static/js/2.ced51117.chunk.js.map": "/animais-fantasticos-react/static/js/2.ced51117.chunk.js.map",
+    "static/js/2.0a155243.chunk.js": "/animais-fantasticos-react/static/js/2.0a155243.chunk.js",
+    "static/js/2.0a155243.chunk.js.map": "/animais-fantasticos-react/static/js/2.0a155243.chunk.js.map",
     "index.html": "/animais-fantasticos-react/index.html",
-    "precache-manifest.bb8889e1413ef262e30656c701d1559b.js": "/animais-fantasticos-react/precache-manifest.bb8889e1413ef262e30656c701d1559b.js",
+    "precache-manifest.0be9f1e17cc8a413dad5fe256b7e4a42.js": "/animais-fantasticos-react/precache-manifest.0be9f1e17cc8a413dad5fe256b7e4a42.js",
     "service-worker.js": "/animais-fantasticos-react/service-worker.js",
-    "static/js/2.ced51117.chunk.js.LICENSE.txt": "/animais-fantasticos-react/static/js/2.ced51117.chunk.js.LICENSE.txt",
+    "static/js/2.0a155243.chunk.js.LICENSE.txt": "/animais-fantasticos-react/static/js/2.0a155243.chunk.js.LICENSE.txt",
     "static/media/imagem1.jpg": "/animais-fantasticos-react/static/media/imagem1.35ed4b82.jpg",
     "static/media/imagem2.jpg": "/animais-fantasticos-react/static/media/imagem2.955abecd.jpg",
     "static/media/imagem3.jpg": "/animais-fantasticos-react/static/media/imagem3.03db14b8.jpg",
@@ -20,7 +20,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.880a3311.js",
-    "static/js/2.ced51117.chunk.js",
-    "static/js/main.4b2d23ef.chunk.js"
+    "static/js/2.0a155243.chunk.js",
+    "static/js/main.7108eef1.chunk.js"
   ]
 }

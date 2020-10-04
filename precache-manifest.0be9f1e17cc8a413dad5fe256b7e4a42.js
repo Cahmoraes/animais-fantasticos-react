@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0eb97db87196f4116413fda41a8be520",
+    "revision": "6cd0012f8cbd38f5f00b884cbe9bf6dd",
     "url": "/animais-fantasticos-react/index.html"
   },
   {
-    "revision": "bcf53ecf1cc032c22fbf",
-    "url": "/animais-fantasticos-react/static/js/2.ced51117.chunk.js"
+    "revision": "77a51d124b6bfc862125",
+    "url": "/animais-fantasticos-react/static/js/2.0a155243.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/animais-fantasticos-react/static/js/2.ced51117.chunk.js.LICENSE.txt"
+    "url": "/animais-fantasticos-react/static/js/2.0a155243.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a99fd1e09a47b51415b",
-    "url": "/animais-fantasticos-react/static/js/main.4b2d23ef.chunk.js"
+    "revision": "13e3ff1f061d8a537d38",
+    "url": "/animais-fantasticos-react/static/js/main.7108eef1.chunk.js"
   },
   {
     "revision": "54e565be8cf91ad6998d",
