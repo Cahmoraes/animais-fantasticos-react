@@ -36,9 +36,9 @@ const Modal: React.ForwardRefRenderFunction<ModalHandles> = ({ children }, ref) 
   if (!visible) return null
   else
     return (
-      <Container data-modal="container">
+      <Container>
         <ModalDiv ref={modalRef}>
-          <Fechar data-modal="fechar" onClick={handleCloseModal}>X</Fechar>
+          <Fechar onClick={handleCloseModal}>X</Fechar>
           <form>
             <label htmlFor="email">Email</label>
             <input type="text" id="email" />

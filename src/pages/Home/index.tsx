@@ -3,6 +3,7 @@ import React, { useEffect, useCallback, useState } from 'react'
 import Menu from '../../components/Header'
 import Animais from '../../components/Animais'
 import Faq from '../../components/Faq'
+import Numeros from '../../components/Numeros'
 import Contato from '../../components/Contato'
 import Footer from '../../components/Footer'
 import debounce from '../../utils/Debounce'
@@ -56,6 +57,7 @@ const Home: React.FC = () => {
       <Menu />
       <Animais />
       <Faq />
+      <Numeros />
       <Contato />
       <Footer />
     </>
