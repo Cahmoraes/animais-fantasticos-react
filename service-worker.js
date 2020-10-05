@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/animais-fantasticos-react/precache-manifest.43c88a0dc2e84664ea9088b8383c7d9d.js"
+  "/animais-fantasticos-react/precache-manifest.c6cb8ce28254369a9b3fb51f2975194f.js"
 );
 
 self.addEventListener('message', (event) => {
