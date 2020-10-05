@@ -6,8 +6,8 @@ import { Navigation } from './styles'
 
 
 const Menu: React.FC = () => {
-
   const modalRef = useRef<ModalHandles>(null)
+
 
   const handleOpenModal = useCallback((event: MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault()
