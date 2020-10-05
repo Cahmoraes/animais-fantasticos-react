@@ -1,20 +1,35 @@
-import React, { useCallback, useState, useImperativeHandle, forwardRef } from 'react'
+import React, { useCallback, useState, useImperativeHandle, forwardRef, useRef, useEffect, MouseEvent } from 'react'
 
 import { Container, ModalDiv, Fechar } from './styles'
 
 export interface ModalHandles {
-  openModal: () => void
+  openModal: (Event: MouseEvent<HTMLElement>) => void
 }
 
 const Modal: React.ForwardRefRenderFunction<ModalHandles> = ({ children }, ref) => {
   const [visible, setVisible] = useState(false)
+  const modalRef = useRef<HTMLDivElement>(null)
 
-  const openModal = useCallback(() => {
+  const openModal = useCallback((event: MouseEvent<HTMLElement>) => {
+    event.stopPropagation()
     setVisible(true)
+    const clickOutside = (event: Event) => {
+      const target = event.target as HTMLElement
+      if (!modalRef.current?.contains(target)) {
+        setVisible(false)
+        window.removeEventListener('click', clickOutside)
+      }
+    }
+    window.addEventListener('click', clickOutside)
   }, [])
 
   const handleCloseModal = useCallback(() => {
     setVisible(false)
+  }, [])
+
+
+  useEffect(() => {
+
   }, [])
 
   useImperativeHandle(ref, () => {
@@ -27,7 +42,7 @@ const Modal: React.ForwardRefRenderFunction<ModalHandles> = ({ children }, ref) 
   else
     return (
       <Container data-modal="container">
-        <ModalDiv>
+        <ModalDiv ref={modalRef}>
           <Fechar data-modal="fechar" onClick={handleCloseModal}>X</Fechar>
           <form>
             <label htmlFor="email">Email</label>

@@ -11,7 +11,7 @@ const Menu: React.FC = () => {
 
   const handleOpenModal = useCallback((event: MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault()
-    modalRef.current?.openModal()
+    modalRef.current?.openModal(event as MouseEvent<HTMLElement>)
   }, [])
 
   return (
