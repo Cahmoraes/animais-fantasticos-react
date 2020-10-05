@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useImperativeHandle, forwardRef, useRef, useEffect, MouseEvent } from 'react'
+import React, { useCallback, useState, useImperativeHandle, forwardRef, useRef, MouseEvent } from 'react'
 
 import { Container, ModalDiv, Fechar } from './styles'
 
@@ -25,11 +25,6 @@ const Modal: React.ForwardRefRenderFunction<ModalHandles> = ({ children }, ref) 
 
   const handleCloseModal = useCallback(() => {
     setVisible(false)
-  }, [])
-
-
-  useEffect(() => {
-
   }, [])
 
   useImperativeHandle(ref, () => {
