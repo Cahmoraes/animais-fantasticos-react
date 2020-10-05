@@ -6,7 +6,7 @@ import Faq from '../../components/Faq'
 import Numeros from '../../components/Numeros'
 import Contato from '../../components/Contato'
 import Footer from '../../components/Footer'
-import debounce from '../../utils/Debounce'
+import debounce from '../../utils/debounce'
 
 interface ElementsConfig {
   element: HTMLElement,

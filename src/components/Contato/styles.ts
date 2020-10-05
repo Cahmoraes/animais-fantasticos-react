@@ -11,7 +11,7 @@ export const Container = styled.section`
   margin-bottom: 4rem;
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
-  transition: .5s ease-out;
+  transition: .3s ease-out;
 
   &.active {
     opacity: initial;
