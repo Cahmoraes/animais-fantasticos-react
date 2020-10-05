@@ -7,6 +7,7 @@ import Numeros from '../../components/Numeros'
 import Contato from '../../components/Contato'
 import Footer from '../../components/Footer'
 import debounce from '../../utils/debounce'
+import Slide from '../../components/Slide'
 
 interface ElementsConfig {
   element: HTMLElement,
@@ -58,6 +59,7 @@ const Home: React.FC = () => {
       <Animais />
       <Faq />
       <Numeros />
+      <Slide />
       <Contato />
       <Footer />
     </>

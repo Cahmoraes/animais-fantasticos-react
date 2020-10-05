@@ -1,0 +1,27 @@
+.container {
+  overflow: hidden;
+  margin-bottom: 2rem;
+  grid-column: 1 / 1;
+}
+
+.content {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.item {
+  flex-shrink: 0;
+  width: 80%;
+  margin: 0 10%;
+  padding: 3rem 0;
+  background: #eee;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  width: 80%;
+}

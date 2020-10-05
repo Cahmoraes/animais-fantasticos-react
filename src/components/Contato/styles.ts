@@ -60,3 +60,10 @@ export const Dados = styled.ul`
     }
   }
 `
+
+export const Preco = styled.span`
+  background: #3F4;
+  padding: .2rem .5rem;
+  font-weight: bold;
+  border-radius: 2px;
+`
