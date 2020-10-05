@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d49a34410d1f24c513131fb128e61549",
+    "revision": "d648a5a14b6036f60daa2c7df7435632",
     "url": "/animais-fantasticos-react/index.html"
   },
   {
