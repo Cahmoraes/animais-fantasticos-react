@@ -1,8 +1,19 @@
-import React from "react"
+import React, { useCallback, useRef, MouseEvent } from "react"
 import { Link as LinkScroll } from 'react-scroll'
+import Modal, { ModalHandles } from '../Modal'
 import { Navigation } from './styles'
 
-const Menu: React.FC = ({ children }) => {
+
+
+const Menu: React.FC = () => {
+
+  const modalRef = useRef<ModalHandles>(null)
+
+  const handleOpenModal = useCallback((event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault()
+    modalRef.current?.openModal()
+  }, [])
+
   return (
     <Navigation>
       <ul>
@@ -32,8 +43,9 @@ const Menu: React.FC = ({ children }) => {
             Contato
           </LinkScroll>
         </li>
-        <li><a href="https://www.origamid.com/">Dev →</a></li>
+        <li><a href="/" onClick={handleOpenModal}>Login →</a></li>
       </ul>
+      <Modal ref={modalRef} />
     </Navigation>
   )
 }

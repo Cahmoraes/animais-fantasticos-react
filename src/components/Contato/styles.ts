@@ -21,6 +21,8 @@ export const Container = styled.section`
   @media (max-width: 700px) {
     & {
       grid-column: 1;
+      grid-template-columns: 100px 1fr;
+      grid-gap: 10px;
     }
   }
 `
