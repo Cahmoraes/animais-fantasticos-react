@@ -1,6 +1,6 @@
 import React, { useEffect, useCallback, useState } from 'react'
 
-import Menu from '../../components/Header'
+import Menu from '../../components/Menu'
 import Animais from '../../components/Animais'
 import Faq from '../../components/Faq'
 import Numeros from '../../components/Numeros'
