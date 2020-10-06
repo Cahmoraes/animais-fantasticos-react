@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fee4caa14b2f14ea36c65513a4c3140",
+    "revision": "7010f4a3b94a05db696224d51f0a1c3b",
     "url": "/animais-fantasticos-react/index.html"
   },
   {
-    "revision": "049a2315f9f9c5d77d79",
+    "revision": "c4887c36c06967bd9a17",
     "url": "/animais-fantasticos-react/static/css/main.717fc349.chunk.css"
   },
   {
-    "revision": "4309744cba2452960b68",
-    "url": "/animais-fantasticos-react/static/js/2.9039df86.chunk.js"
+    "revision": "166eaa0ec7cf0c2fd339",
+    "url": "/animais-fantasticos-react/static/js/2.21945aa6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/animais-fantasticos-react/static/js/2.9039df86.chunk.js.LICENSE.txt"
+    "url": "/animais-fantasticos-react/static/js/2.21945aa6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "049a2315f9f9c5d77d79",
-    "url": "/animais-fantasticos-react/static/js/main.d68abe06.chunk.js"
+    "revision": "c4887c36c06967bd9a17",
+    "url": "/animais-fantasticos-react/static/js/main.33f4752e.chunk.js"
   },
   {
     "revision": "54e565be8cf91ad6998d",
