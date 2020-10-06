@@ -1,63 +1,52 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 
+import SlideNav from '../../utils/slide';
 import styles from './index.module.css';
+import { Container } from './styles'
 
-interface SlideProps {
-  id: number,
-  item: string,
-  url: string
-}
+import foto1Thumb from '../../assets/img/slide/foto1-thumb.jpg'
+import foto2Thumb from '../../assets/img/slide/foto2-thumb.jpg'
+import foto3Thumb from '../../assets/img/slide/foto3-thumb.jpg'
+import foto4Thumb from '../../assets/img/slide/foto4-thumb.jpg'
+import foto5Thumb from '../../assets/img/slide/foto5-thumb.jpg'
+import foto6Thumb from '../../assets/img/slide/foto6-thumb.jpg'
 
-const slides: SlideProps[] = [
-  {
-    id: 1,
-    item: 'cachorro',
-    url: 'https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d'
-  },
-  {
-    id: 2,
-    item: 'cachorro',
-    url: 'https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d'
-  },
-]
+import foto1 from '../../assets/img/slide/foto1.jpg'
+import foto2 from '../../assets/img/slide/foto2.jpg'
+import foto3 from '../../assets/img/slide/foto3.jpg'
+import foto4 from '../../assets/img/slide/foto4.jpg'
+import foto5 from '../../assets/img/slide/foto5.jpg'
+import foto6 from '../../assets/img/slide/foto6.jpg'
 
 const Slide: React.FC = () => {
 
-  const [active, setActive] = useState(0);
-  const [position, setPosition] = useState(0);
-  const contentRef = useRef<HTMLDivElement | null>(null);
-
-  React.useEffect(() => {
-    const { width } = contentRef.current?.getBoundingClientRect() as { width: number };
-    setPosition(-(width * active));
-  }, [active]);
-
-  function slidePrev() {
-    if (active > 0) setActive(active - 1);
-  }
-
-  function slideNext() {
-    if (active < slides.length - 1) setActive(active + 1);
-  }
+  useEffect(() => {
+    const slide = new SlideNav('[data-slide]', '[data-slide-wrapper]');
+    slide.init();
+    slide.addControl('[data-custom-controls]');
+  }, [])
 
   return (
-    <section className={styles.container}>
-      <div
-        ref={contentRef}
-        className={styles.content}
-        style={{ transform: `translateX(${position}px)` }}
-      >
-        {slides.map((slide) => (
-          <div key={slide.id} className={styles.item}>
-            <img src={slide.url} alt={slide.item} />
-          </div>
-        ))}
+    <Container className={`${styles.galeria}`} data-scroll>
+      <ul className={styles.customControls} data-custom-controls>
+        <li><img src={foto1Thumb} alt="" /></li>
+        <li><img src={foto2Thumb} alt="" /></li>
+        <li><img src={foto3Thumb} alt="" /></li>
+        <li><img src={foto4Thumb} alt="" /></li>
+        <li><img src={foto5Thumb} alt="" /></li>
+        <li><img src={foto6Thumb} alt="" /></li>
+      </ul>
+      <div className={styles.slideWrapper} data-slide-wrapper>
+        <ul className={styles.slide} data-slide>
+          <li><img src={foto1} alt="" /></li>
+          <li><img src={foto2} alt="" /></li>
+          <li><img src={foto3} alt="" /></li>
+          <li><img src={foto4} alt="" /></li>
+          <li><img src={foto5} alt="" /></li>
+          <li><img src={foto6} alt="" /></li>
+        </ul>
       </div>
-      <nav className={styles.nav}>
-        <button onClick={slidePrev}>Anterior</button>
-        <button onClick={slideNext}>Próximo</button>
-      </nav>
-    </section>
+    </Container>
   );
 };
 

@@ -59,9 +59,7 @@ const Home: React.FC = () => {
       <Animais />
       <Faq />
       <Numeros />
-      {
-        /*<Slide /> */
-      }
+      <Slide />
       <Contato />
       <Footer />
     </>
