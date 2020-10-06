@@ -21,6 +21,7 @@ Reconstruí o projeto utilizando o framework React, em conjunto com Typescript e
 - [reactjs](https://pt-br.reactjs.org/)
 - [styled-components](https://styled-components.com/)
 - [react-scroll](https://www.npmjs.com/package/react-scroll)
+- [axios](https://www.npmjs.com/package/axios)
 
 ## :warning: Pré-requisitos
 
