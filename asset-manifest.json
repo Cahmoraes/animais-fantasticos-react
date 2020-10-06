@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.js": "/animais-fantasticos-react/static/js/main.020e64ce.chunk.js",
-    "main.js.map": "/animais-fantasticos-react/static/js/main.020e64ce.chunk.js.map",
+    "main.css": "/animais-fantasticos-react/static/css/main.717fc349.chunk.css",
+    "main.js": "/animais-fantasticos-react/static/js/main.d68abe06.chunk.js",
+    "main.js.map": "/animais-fantasticos-react/static/js/main.d68abe06.chunk.js.map",
     "runtime-main.js": "/animais-fantasticos-react/static/js/runtime-main.880a3311.js",
     "runtime-main.js.map": "/animais-fantasticos-react/static/js/runtime-main.880a3311.js.map",
-    "static/js/2.ba15a064.chunk.js": "/animais-fantasticos-react/static/js/2.ba15a064.chunk.js",
-    "static/js/2.ba15a064.chunk.js.map": "/animais-fantasticos-react/static/js/2.ba15a064.chunk.js.map",
+    "static/js/2.9039df86.chunk.js": "/animais-fantasticos-react/static/js/2.9039df86.chunk.js",
+    "static/js/2.9039df86.chunk.js.map": "/animais-fantasticos-react/static/js/2.9039df86.chunk.js.map",
     "index.html": "/animais-fantasticos-react/index.html",
-    "precache-manifest.375649afb3895adac45a68d0feeaed23.js": "/animais-fantasticos-react/precache-manifest.375649afb3895adac45a68d0feeaed23.js",
+    "precache-manifest.28a04dfd9e83c5a20de31acda09b2ee8.js": "/animais-fantasticos-react/precache-manifest.28a04dfd9e83c5a20de31acda09b2ee8.js",
     "service-worker.js": "/animais-fantasticos-react/service-worker.js",
-    "static/js/2.ba15a064.chunk.js.LICENSE.txt": "/animais-fantasticos-react/static/js/2.ba15a064.chunk.js.LICENSE.txt",
+    "static/css/main.717fc349.chunk.css.map": "/animais-fantasticos-react/static/css/main.717fc349.chunk.css.map",
+    "static/js/2.9039df86.chunk.js.LICENSE.txt": "/animais-fantasticos-react/static/js/2.9039df86.chunk.js.LICENSE.txt",
+    "static/media/foto1-thumb.jpg": "/animais-fantasticos-react/static/media/foto1-thumb.eaa67814.jpg",
+    "static/media/foto1.jpg": "/animais-fantasticos-react/static/media/foto1.ae7ac960.jpg",
+    "static/media/foto2-thumb.jpg": "/animais-fantasticos-react/static/media/foto2-thumb.b0789c6a.jpg",
+    "static/media/foto2.jpg": "/animais-fantasticos-react/static/media/foto2.fe04773d.jpg",
+    "static/media/foto3-thumb.jpg": "/animais-fantasticos-react/static/media/foto3-thumb.2e09dcc1.jpg",
+    "static/media/foto3.jpg": "/animais-fantasticos-react/static/media/foto3.7cceb744.jpg",
+    "static/media/foto4-thumb.jpg": "/animais-fantasticos-react/static/media/foto4-thumb.a5b7f245.jpg",
+    "static/media/foto4.jpg": "/animais-fantasticos-react/static/media/foto4.4ad08710.jpg",
+    "static/media/foto5-thumb.jpg": "/animais-fantasticos-react/static/media/foto5-thumb.df85cc5d.jpg",
+    "static/media/foto5.jpg": "/animais-fantasticos-react/static/media/foto5.9b958493.jpg",
+    "static/media/foto6-thumb.jpg": "/animais-fantasticos-react/static/media/foto6-thumb.767d16c1.jpg",
+    "static/media/foto6.jpg": "/animais-fantasticos-react/static/media/foto6.e7e9aa98.jpg",
     "static/media/imagem1.jpg": "/animais-fantasticos-react/static/media/imagem1.35ed4b82.jpg",
     "static/media/imagem2.jpg": "/animais-fantasticos-react/static/media/imagem2.955abecd.jpg",
     "static/media/imagem3.jpg": "/animais-fantasticos-react/static/media/imagem3.03db14b8.jpg",
@@ -20,7 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.880a3311.js",
-    "static/js/2.ba15a064.chunk.js",
-    "static/js/main.020e64ce.chunk.js"
+    "static/js/2.9039df86.chunk.js",
+    "static/css/main.717fc349.chunk.css",
+    "static/js/main.d68abe06.chunk.js"
   ]
 }
