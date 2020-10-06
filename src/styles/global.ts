@@ -32,6 +32,10 @@ const GlobalStyles = createGlobalStyle`
     grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
   }
 
+  [data-dropdown] {
+    position: relative;
+  }
+
   @media (max-width: 700px) {
     #root {
       grid-template-columns: 1fr;

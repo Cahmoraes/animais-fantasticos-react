@@ -27,7 +27,7 @@ const Slide: React.FC = () => {
   }, [])
 
   return (
-    <Container className={`${styles.galeria}`} data-scroll>
+    <Container className={`${styles.galeria}`} id="carousel" data-scroll>
       <ul className={styles.customControls} data-custom-controls>
         <li><img src={foto1Thumb} alt="" /></li>
         <li><img src={foto2Thumb} alt="" /></li>

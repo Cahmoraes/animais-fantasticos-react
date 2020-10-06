@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { showUp } from '../../styles/keyframes'
 
 export const Navigation = styled.nav`
   & {
@@ -32,8 +33,44 @@ export const Navigation = styled.nav`
     & {
       grid-column: 1;
     }
+    
     & {
       margin-top: 0px;
     }
+
+    & ul {
+      justify-content: space-between;
+    }
+
+    & li a {
+      padding: 15px 5px;
+      font-size: 1.2rem;
+      margin-right: 0;
+    }
+  }
+`
+
+export const DropdownMenu = styled.ul`
+  position: absolute;
+  top: 38px;
+  background: #E54;
+  border: 2px solid #333;
+  z-index: 200;
+  animation: ${showUp} .3s forwards;
+  
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #E54;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  & li a:hover {
+    color: #FFF;
   }
 `

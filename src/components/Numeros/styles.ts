@@ -34,12 +34,6 @@ export const NumerosGrid = styled.div`
   grid-gap: 30px;
   align-items: center;
 
-  @media (max-width: 700px) {
-    & {
-      grid-column: 1;
-    }
-  }
-
   & h3 {
     font-family: 'Playfair Display SC';
     font-size: 3.2rem;
@@ -51,5 +45,20 @@ export const NumerosGrid = styled.div`
     font-weight: bold;
     font-size: 2.4rem;
     color: #E54;
+  }
+
+  
+  @media (max-width: 700px) {
+    & {
+      grid-column: 1;
+    }
+
+    & h3 {
+      font-size: 2.2rem;
+    }
+
+    & span {
+      font-size: 2rem;
+    }
   }
 `

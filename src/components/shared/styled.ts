@@ -7,4 +7,10 @@ export const Title = styled.h1`
   font-weight: 400;
   margin-bottom: 1rem;
   grid-column: 1 / 4;
+
+  @media (max-width: 700px) {
+    & {
+      font-size: 4.4rem;
+    }
+  }
 `

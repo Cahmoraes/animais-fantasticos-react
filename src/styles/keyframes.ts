@@ -32,3 +32,14 @@ export const animaModal = keyframes`
     transform: translate3d(0, 0, 0);
   }
 `
+
+export const showUp = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+`

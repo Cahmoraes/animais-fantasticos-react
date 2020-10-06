@@ -22,7 +22,7 @@ const Home: React.FC = () => {
     setElements([...document.querySelectorAll('[data-scroll]')].map(element => {
       return ({
         element,
-        offset: (element as HTMLElement).offsetTop - window.innerHeight * 0.6
+        offset: (element as HTMLElement).offsetTop - window.innerHeight * 0.4
       }) as ElementsConfig
     }))
   }, [])
