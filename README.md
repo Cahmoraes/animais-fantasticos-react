@@ -12,7 +12,7 @@ Reconstruí o projeto utilizando o framework React, em conjunto com Typescript e
 ### :computer: Desktop
 <img src="https://github.com/Cahmoraes/animais-fantasticos-react/blob/main/src/assets/examples/af.gif" alt="Animais Fantásticos">
 
-### :phone: Mobile
+### :cellphone: Mobile
 <img src="https://github.com/Cahmoraes/animais-fantasticos-react/blob/main/src/assets/examples/mobile.gif" alt="Animais Fantásticos">
 
 ## :computer: Tecnologias utilizadas
