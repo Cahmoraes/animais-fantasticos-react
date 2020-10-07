@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 
 interface RouteProps extends RoutePropsDOM {
-  isProtected?: true,
+  isProtected?: boolean,
   component: React.ComponentType
 }
 
